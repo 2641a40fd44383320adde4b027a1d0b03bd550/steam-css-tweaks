@@ -1,0 +1,42 @@
+[class*="titlebarcontrols_AnnouncementsButton_"],
+[class*="titlebarcontrols_GamepadUIToggle_"] {
+	display: none;
+}
+
+[class*="steamdesktop_SuperNavBar_"] {
+	position: absolute;
+	left: 262px;
+	top: 0px;
+}
+
+[class*="supernav_Arrow_"] {
+	padding: 2px 6px !important;
+}
+
+[class*="supernav_SuperNavMenu_"] {
+	padding: 0 4px;
+	font-size: 12px;
+	font-weight: normal;
+	text-transform: unset;
+	transition: color .15s ease-out;
+	display: flex;
+	align-items: center;
+}
+
+[class*="supernav_MenuButton_"] {
+	color: #8b929a !important;
+	position: relative;
+}
+
+[class*="supernav_SuperNavMenu_"]:not([class*="Selected"]):hover > div {
+	color: #fff !important;
+}
+
+[class*="supernav_Selected_"] > div {
+	color: #1a9fff !important;
+}
+
+[class*="supernav_Selected_"] > div::after {
+	position: absolute;
+	bottom: -4px;
+}

@@ -1,0 +1,35 @@
+[class*="steamdesktop_ContentFrame_"] {
+	flex-direction: row !important;
+}
+
+[class*="steamdesktop_LocalContentContainer_"] {
+	display: flex !important;
+}
+
+[class*="library_LeftListSizableContainer_"] {
+	width: 256px !important;
+}
+
+[class*="library_LibraryWindowDivider_"] {
+	cursor: default !important;
+}
+
+/* Uncomment to hide the library tab */
+/*[class*="supernav_SuperNavMenu_"]:nth-of-type(2),*/
+[class*="steamdesktop_URLBarReplacement_"] {
+	display: none !important;
+}
+
+[class*="steamdesktop_URLBar_"] {
+	box-shadow: inset rgba(61,68,80,.25) -1px -1px 0px 0px !important;
+}
+
+/* Uncomment for the sidebar to be on the right side */
+/*[class*="steamdesktop_ContentFrame_"],
+[class*="library_Container_"] {
+	flex-direction: row-reverse !important;
+}
+
+[class*="steamdesktop_URLBar_"] {
+	box-shadow: inset rgba(61,68,80,.75) 1px 0px 0px 0px, inset rgba(61,68,80,.25) -1px -1px 0px 0px !important;
+}*/

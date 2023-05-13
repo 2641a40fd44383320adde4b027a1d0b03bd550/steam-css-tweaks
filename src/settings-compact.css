@@ -1,0 +1,15 @@
+:root {
+	--settings-horizontal-padding: 6px;
+}
+
+.DialogCheckbox_Container,
+[class*="pagedsettings_PagedSettingsDialog_PageListItem_"],
+[class*="gamepaddialog_Field_"][class*="gamepaddialog_StandardPadding_"],
+[class*="pagedsettings_PagedSettingsDialog_"] :-webkit-any(input, button, .DialogDropDown) {
+	padding-top: var(--settings-horizontal-padding) !important;
+	padding-bottom: var(--settings-horizontal-padding) !important;
+}
+
+[class*="pagedsettings_PagedSettingsDialog_"] :-webkit-any(input, button, .DialogDropDown) {
+	line-height: unset !important;
+}

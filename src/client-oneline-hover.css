@@ -1,0 +1,48 @@
+[class*="steamdesktop_RootMenuBar_"] {
+	background-color: #171d25;
+	margin-top: 2px;
+	margin-left: -2px;
+	height: 102%;
+	width: 22px;
+	overflow: hidden;
+	z-index: 1;
+	transition: 150ms;
+}
+
+[class*="steamdesktop_RootMenuBar_"]:hover {
+	width: 262px;
+}
+
+[class*="rootmenu_Logo_"] {
+	width: 20px;
+	height: 20px;
+}
+
+[class*="steamdesktop_SuperNavBar_"] {
+	margin-top: -29px;
+	margin-left: 29px;
+	padding-top: 5px;
+	-webkit-app-region: no-drag;
+}
+
+[class*="steamdesktop_TitleBarControls_"] {
+	z-index: 1;
+}
+
+/* other elements' alignment */
+[class*="steamdesktop_URLBarReplacement_"] {
+	height: 6px !important;
+	margin-top: -4px;
+}
+
+[class*="titlebarcontrols_TitleBarControls_"] {
+	margin-top: 9px;
+}
+
+[class*="titlebarcontrols_GamepadUIToggle_"] > svg {
+	top: 12px !important;
+}
+
+[class*="steamdesktop_WindowControls_"] .title-bar-actions {
+	top: 2px;
+}
