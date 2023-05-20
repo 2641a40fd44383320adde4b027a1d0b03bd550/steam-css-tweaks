@@ -1,9 +1,8 @@
 [class*="steamdesktop_RootMenuBar_"] {
 	background-color: #171d25;
-	margin-top: 2px;
 	margin-left: -2px;
-	height: 102%;
-	width: 22px;
+	height: 36px;
+	width: 32px;
 	overflow: hidden;
 	z-index: 1;
 	transition: 150ms;
@@ -14,8 +13,8 @@
 }
 
 [class*="rootmenu_Logo_"] {
-	width: 20px;
-	height: 20px;
+	width: 20px !important;
+	height: 20px !important;
 }
 
 [class*="steamdesktop_SuperNavBar_"] {
@@ -36,13 +35,9 @@
 }
 
 [class*="titlebarcontrols_TitleBarControls_"] {
-	margin-top: 9px;
+	margin-top: 8px;
 }
 
 [class*="titlebarcontrols_GamepadUIToggle_"] > svg {
 	top: 12px !important;
-}
-
-[class*="steamdesktop_WindowControls_"] .title-bar-actions {
-	top: 2px;
 }
